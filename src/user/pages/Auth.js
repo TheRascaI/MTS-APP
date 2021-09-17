@@ -79,7 +79,6 @@ const Auth = () => {
             'Content-Type': 'application/json'
           }
         );
-        console.log('response Data??', responseData);
         auth.login(responseData.userId, responseData.role, responseData.token );
       } catch (err) {}
     } else {
