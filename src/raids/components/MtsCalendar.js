@@ -22,7 +22,6 @@ if (view === 'month') {
 const MtsCalendar = () => {
 
     const [value, onChange] = useState(new Date());
-    console.log(value);
 
   
 
