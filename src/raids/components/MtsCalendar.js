@@ -8,7 +8,7 @@ const isSameDay = (date1, date2) => {
 
     }
 };
-
+let raidDates;
 function tileContent({ date, view }) {
 // Add class to tiles in month view only
 if (view === 'month') {
