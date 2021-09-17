@@ -1,0 +1,92 @@
+#home{
+    position: relative;
+    color: #FCFAF1;
+    width:90vw;
+    max-width: 640px;
+    margin:4rem auto 0;
+    overflow-x: hidden;
+}
+
+.posts-section{
+    
+    margin: 0px auto;
+}
+.raid-section{
+    width:100%;
+    margin: 2rem auto;
+}
+.home-anim-container{
+}
+.home-header{
+}
+.home-header h1{
+    text-align: center;
+    font-weight:400;
+    font-size: 4rem;
+    margin:1.5rem 0 0;
+}
+.home-header h2{
+    font-weight:400;
+    text-align: center;
+    margin:1rem;
+
+}
+
+.mts-hr{
+    border: 0;
+    width:100%;
+    height: 2px;
+    background-image: linear-gradient(to right, #0139361c, #013936, #0139361c);
+}
+.mts-hr--inverse{
+    border: 0;
+    width:100%;
+    height: 2px;
+    background-image: linear-gradient(to right, #fcfaf131, #FCFAF1, #fcfaf131);
+}
+.roster-section{
+   margin:0px auto;
+   background-color: #00000088;
+   border-radius: 8px;
+   padding:0 0.75rem 0.1rem;
+
+}
+
+.roster-section__container{
+    position: relative;
+}
+.roster-section__container > div{
+    margin:1rem 0;
+}
+
+.roster-section__footer{
+    position: relative;
+    margin: auto
+}
+.roster-section__footer img{
+}
+
+
+@media (min-width: 1200px) {
+    .roster-section{
+        background-color: #00000088;
+        border-radius: 8px;
+        padding:0 0.75rem;
+        max-width: 300px;
+        position:fixed;
+        top:4.2rem;
+        right:0;
+
+        
+
+    }
+    .roster-section > h2{
+        text-align: center;
+    }
+   .roster-list-container{
+    position: relative;
+    top: auto;
+    bottom: 0;
+   }
+
+}

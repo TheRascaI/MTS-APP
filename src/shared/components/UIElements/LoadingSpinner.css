@@ -1,0 +1,39 @@
+.logo-spin {
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+}
+
+.logo-spin img{
+  
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 1px;
+  animation: logo-spin 1s ease infinite;
+}
+
+.loading-spinner__overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #013936;
+  background-image: url("https://www.transparenttextures.com/patterns/black-orchid.png");
+
+  display: flex;
+  border-radius: 8px;
+  border:2px solid #01393644;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes logo-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}

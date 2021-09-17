@@ -1,0 +1,19 @@
+.user-item{
+    display: flex;
+}
+.user-item > div{
+    margin:0 1rem 0 0;
+}
+.user-item > div > h2{
+    font-weight: 400;
+    color:#013936;
+    margin:0;
+}
+.user-item > div > p{
+    color:#013936;
+    margin:0;
+}
+.user-item > div > p:first-child{
+    font-size: 0.8rem;
+    font-weight: bold;
+}

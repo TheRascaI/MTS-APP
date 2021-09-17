@@ -1,0 +1,8 @@
+select{
+    width:90%;
+    height:2rem;
+    padding:0 1rem;
+    border-radius: 8px;
+    border-color: rgba(252, 250, 241, 0.15);
+    font-family: 'Dosis', sans-serif;
+}

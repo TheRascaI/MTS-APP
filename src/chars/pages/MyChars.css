@@ -1,0 +1,11 @@
+.my-chars{
+    width:100%;
+    position: relative;
+    margin: 5rem auto;
+    max-width: 980px;
+}
+.profile-section{
+    position: relative;
+    width:100%;
+    margin:auto 0.55rem;
+}

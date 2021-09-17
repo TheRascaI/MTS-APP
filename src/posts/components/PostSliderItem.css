@@ -1,0 +1,22 @@
+.post-slider-item{
+    text-align: left;
+    color: #013936;
+    border-radius: 8px;
+}
+
+.post-slider-item-card{
+    height:210px;
+}
+.post-slider-item h2{
+    margin: 0;
+    font-size:2rem;
+    font-weight: 400;
+    color:#013936;
+}
+
+p.carousel-status{
+    display:none;
+}
+.carousel .control-dots{
+    margin:0;
+}
