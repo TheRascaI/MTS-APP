@@ -2,13 +2,15 @@ import React, {useState} from 'react';
 import Calendar from 'react-calendar'
 import "./MtsCalendar.css";
 
+
+const raidDates = [ {date: "11 Jul"}, {date:"23 Jul"}, {date:"30 Jul"}];
 const isSameDay = (date1, date2) => {
     if(date1 === date2 ){
         return true;
 
     }
 };
-let raidDates;
+
 function tileContent({ date, view }) {
 // Add class to tiles in month view only
 if (view === 'month') {
@@ -22,6 +24,7 @@ if (view === 'month') {
 const MtsCalendar = () => {
 
     const [value, onChange] = useState(new Date());
+  
 
   
 
@@ -38,3 +41,4 @@ const MtsCalendar = () => {
 }
 
 export default MtsCalendar;
+
