@@ -29,7 +29,7 @@ const CharItem = (props) => {
     setShowConfirmModal(false);
     try {
       await sendRequest(
-        `${process.env.REACT_APP_BACKEND_URL}/chars/${props.id}`,
+        process.env.REACT_APP_BACKEND_URL} + `/chars/${props.id}`,
         "DELETE",
         null,
         { Authorization: "Bearer " + auth.token }
