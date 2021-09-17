@@ -24,7 +24,7 @@ const App = () => {
   const { token, login, logout, userId, role } = useAuth();
 
   let routes;
-  console.log("userRole:",role);
+  
   
   
   if(token && role !== "OFFI"){
