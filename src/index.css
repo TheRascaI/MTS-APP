@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Dosis:wght@300;700;800&display=swap');
+
+body {
+  font-family: 'Audiowide', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #013936;
+background-image: url("https://www.transparenttextures.com/patterns/black-orchid.png");
+}
+
+p{
+  font-family: 'Dosis';
+  font-size: 1.25rem;
+  line-height: 145%;
+}
+
+.sr-only{
+  position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
+}
+
+.starter-h2{
+  color:#EA1A7F;
+
+  font-size: 4rem;
+  margin:0.75rem 0 1rem;
+}

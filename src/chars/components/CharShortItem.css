@@ -1,0 +1,37 @@
+.char-short-item{
+    max-height:60px;
+    width:100%;
+    list-style: none;
+    display: flex;
+    background-color: #013936;
+    border-radius: 8px;
+}
+
+.char-short-item > div.char-short-item__img{
+    flex:1;
+}
+.char-short-item > div.char-short-item__char-info{
+    flex:10;
+    margin: auto 0;
+    padding:0 1rem;
+    
+}
+
+.char-short-item__char-info p, .char-short-item__char-info h2{
+    font-size: 1rem;
+    margin:0;
+
+
+}
+
+.class-icon{
+    height:100%;
+    border-radius: 8px;
+    margin:0 0.5rem 0 0;
+}
+.spec-icon{
+    height:100%;
+    border-radius: 8px;
+    margin:0 0.5rem 0 0;
+
+}

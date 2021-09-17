@@ -1,0 +1,17 @@
+.char-form-container{
+    margin:5rem auto;
+    width:90%;
+    max-width: 640px;
+}
+.form-input-container{
+    width: 90%;
+}
+
+.form-selections-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+}
+.form-selections-container > div{
+    flex:0 50%;
+}

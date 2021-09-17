@@ -1,0 +1,6 @@
+.post-list-main-container{
+    position: relative;
+    margin:5rem auto;
+    width:90%;
+    max-width: 640px;
+}

@@ -1,0 +1,21 @@
+.post-list-container{
+    height:100%;
+}
+.post-list{
+    width:100vw;
+    height:100%;
+    display: block;
+    max-width: 980px;
+    margin:auto;
+    padding:0;
+    
+}
+.post-list li{
+    float:left;
+    margin:1.25rem 0.55rem;
+    width:100%;
+    height:320px;
+    max-height:320px;
+    max-width: 300px;
+    list-style-type: none;
+}

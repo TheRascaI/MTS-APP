@@ -1,0 +1,19 @@
+
+#app{
+    margin:0 auto;
+    padding:0;
+}
+
+#root{
+    
+}
+footer{
+   margin:4rem 0 1rem;
+    
+}
+footer > img{
+    width:45px;
+    display: block;
+    margin:0 auto;
+
+}

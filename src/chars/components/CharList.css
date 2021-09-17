@@ -1,0 +1,27 @@
+.char-list-container{
+    width:100%;
+    max-width: 980px;
+    margin:0 auto;
+    display: inline-block;
+}
+.char-list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100%;
+    padding-inline-start: 0;
+    margin: 0 auto;
+    
+}
+.char-list li{
+    flex:33%;
+    margin:1.75rem 0.55rem;
+    max-height:350px;
+    list-style-type: none;
+}
+
+@media(min-width:760px){
+   .char-list{
+       flex-direction: row;
+   }
+}
