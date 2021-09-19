@@ -99,7 +99,7 @@ lowClass = props.charClass.toLowerCase();
             <p>{props.charClass} | {props.spec}</p>
             </div>
             <div className="char-short-item__img">
-            <img className="spec-icon" alt="spec" src={`https://render-classic-us.worldofwarcraft.com/icons/56/${specIcon}.jpg`} />
+            <img className="spec-icon spec-short-icon" alt="spec" src={`https://render-classic-us.worldofwarcraft.com/icons/56/${specIcon}.jpg`} />
             </div>
         </div>
         </React.Fragment>
